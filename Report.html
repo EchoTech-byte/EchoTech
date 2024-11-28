@@ -9,8 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
 </head>
+
+
 <style>
  
+ body
+ {
+  background-color: black;
+ }
 input[type=text], select, textarea {
   width: 100%; 
   padding: 12px; 
@@ -45,6 +51,33 @@ input[type=submit]:hover {
 }
 </style>
 <body>
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Home.html">Eco-Tech</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Aboutus.html">About us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://echotech-byte.github.io/Application/app.html">Application</a>
+              </li>
+           
+              
+            
+
+          </div>
+        </div>
+      </nav>
+  </nav>
 
     <div class="jumbotron" style="background-image: url('assets/alley-aisle-green-trees-wallpaper.jpg'); background-size: cover; background-position: center; color: white;">
         <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 10px;">
@@ -56,11 +89,16 @@ input[type=submit]:hover {
     
        
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="Aboutus.html" role="button">Learn more</a>
         </p>
     </div>
 
-<div class="container">
+ 
+   
+  </div>
+  <br>
+  <br>
+  <div class="container" style="background-color: antiquewhite;">
     <form action="">
   
       <label for="fname">First Name</label>
@@ -74,14 +112,48 @@ input[type=submit]:hover {
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
   
       <input type="submit" value="Submit">
-  
+</div>
+<br>
     </form>
+    <footer style="background-color: #333; color: #f2f2f2; padding: 20px; text-align: center;">
+      <div style="max-width: 1200px; margin: auto;">
+          <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+           
+              <div style="flex: 1; min-width: 200px; padding: 10px;">
+                <h4 style="margin-bottom: 15px;">Eco Tech</h4>
+                <p>Tankulan Manolo Fortich Bukidnon </p>
+                <p>Email: 20231782@nbsc.edu.ph</p>
+                <p>Phone: 09161541498</p>
+              </div>
+              
+            
+              <div style="flex: 1; min-width: 200px; padding: 10px;">
+               
+                  <ul style="list-style-type: none; padding: 0;">
+                      <li><a href="Home.html" style="color: #f2f2f2; text-decoration: none;">Home</a></li>
+                      <li><a href="Aboutus.html" style="color: #f2f2f2; text-decoration: none;">About Us</a></li>
+                      <li><a href="" style="color: #f2f2f2; text-decoration: none;">Application</a></li>
+                      <li><a href="ContactUs.html" style="color: #f2f2f2; text-decoration: none;">Contact</a></li>
+                  </ul>
+              </div>        
+              <div style="flex: 1; min-width: 200px; padding: 10px;">
+                  <h4 style="margin-bottom: 15px;">Follow Us</h4>
+                  <div>
+                      <a href="#" style="margin: 0 10px; color: #f2f2f2; text-decoration: none;">Facebook</a>
+                      <a href="#" style="margin: 0 10px; color: #f2f2f2; text-decoration: none;">Twitter</a>
+                      <a href="#" style="margin: 0 10px; color: #f2f2f2; text-decoration: none;">Instagram</a>
+                      <a href="#" style="margin: 0 10px; color: #f2f2f2; text-decoration: none;">LinkedIn</a>
+                  </div>
+              </div>
+          </div>
+  
+          <hr style="margin: 20px 0; border: 0.5px solid #444;">
+          <p style="margin: 0;">&copy; 2024 EcoTech. All rights reserved.</p>
+      </div>
+  </footer>
+
     
-
-
-
-   
-  </div>
 </body>
+
 </html>
 
